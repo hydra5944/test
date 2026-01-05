@@ -1,4 +1,4 @@
-/*
+/******************************
 
 
 
@@ -9,7 +9,7 @@
 [mitm]
 hostname = api.revenuecat.com, api.rc-backup.com
 
-*/
+*******************************/
 const guding = {};
 const guding6 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 if (typeof $response == "undefined") {
